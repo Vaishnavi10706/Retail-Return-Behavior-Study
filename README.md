@@ -11,7 +11,7 @@
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
 
-# Project Overview
+## Project Overview
 
 Retail Return Behavior Study is a Data Analytics project focused on understanding product return patterns in retail businesses.
 
@@ -30,21 +30,33 @@ The ultimate goal is to help retailers:
 4. Enhance operational efficiency
 
 ## Table of Contents
+
 - Project Overview
+- Project Information
 - Problem Statement
+- Why This Project Matters
+- Dataset Information
+- Sample Visualizations
 - Tech Stack
 - Project Workflow
 - Core Features
+- Key Analytical Methods
+- Expected Outputs
+- Validation & Testing
 - Repository Structure
 - How to Run the Project
-- Expected Outputs
+- Success Criteria
+- Dashboard Preview
 - Future Improvements
+- Author
+- License
+  
+## Project Information
 
-# Project Information
+### Project Contributors
 
-Project Contributors
-• Vaishnavi  
-• Md. Farhan Prawez
+- Vaishnavi  
+- Md. Farhan Prawez
 
 Roll Numbers: 25100010700039, 251810700049
 
@@ -56,7 +68,7 @@ Mentor: Mr. Navneet Sir
 
 Duration: 9 Weeks
 
-# Problem Statement
+## Problem Statement
 
 Retail businesses face substantial revenue loss due to product returns. Without proper analysis, it is difficult to determine:
 
@@ -78,7 +90,7 @@ This project aims to analyze retail transaction data to:
 
 4. Provide data-driven recommendations
 
-# Why This Project Matters
+## Why This Project Matters
 
 Product returns directly impact:
 
@@ -96,6 +108,8 @@ Primary Beneficiaries:
 Retail companies, operations teams, business analysts, and decision-makers.
 
 ## Dataset Information
+
+Dataset Source: Online Retail Transaction Dataset (E-commerce retail transactions dataset commonly used for analytics practice).
 
 The dataset contains retail transaction records including:
 
@@ -136,23 +150,24 @@ Tools
 - Jupyter Notebook
 - Git
 - GitHub
-# Project Workflow
 
-Dataset Input  
-        ↓  
-Data Cleaning & Preprocessing  
-        ↓  
-Exploratory Data Analysis (EDA)  
-        ↓  
-Return Pattern Analysis  
-        ↓  
-Customer Segmentation & Hypothesis Testing  
-        ↓  
-Power BI Dashboard Development  
-        ↓  
+## Project workflow
+
+Dataset Input
+   ↓
+Data Cleaning & Preprocessing
+   ↓
+Exploratory Data Analysis (EDA)
+   ↓
+Return Pattern Analysis
+   ↓
+Customer Segmentation & Hypothesis Testing
+   ↓
+Power BI Dashboard Development
+   ↓
 Final Insights & Business Report
 
-# Core Features
+## Core Features
 
 1. Return pattern analysis across products, customers, and time
 
@@ -164,7 +179,7 @@ Final Insights & Business Report
 
 5. Business insight generation from statistical analysis
 
-# Stretch Goals
+## Stretch Goals
 
 1. Hypothesis testing (t-test, chi-square test)
 
@@ -174,7 +189,7 @@ Final Insights & Business Report
 
 4. Business recommendation modeling
 
-# Key Analytical Methods
+## Key Analytical Methods
 
 1. Pandas DataFrame operations
 
@@ -188,7 +203,7 @@ Final Insights & Business Report
 
 6. Data validation and consistency checks
 
-# Expected Outputs
+## Expected Outputs
 
 1. Cleaned and structured dataset
 
@@ -202,7 +217,7 @@ Final Insights & Business Report
 
 6. Final analytical report and presentation
 
-# Validation & Testing
+## Validation & Testing
 
 To ensure correctness and reliability:
 
@@ -246,7 +261,7 @@ jupyter notebook
 
 5. Open the Power BI dashboard to explore interactive insights.
 
-# Success Criteria
+## Success Criteria
 
 The project will be considered successful if:
 
@@ -260,11 +275,11 @@ The project will be considered successful if:
 
 5. Documentation is complete and professional
 
-# Dashboard Preview
+## Dashboard Preview
 
 (Screenshots of the Power BI dashboard will be added here.)
 
-# Future Improvements
+## Future Improvements
 
 1. Build a machine learning model to predict return probability
 
@@ -274,7 +289,7 @@ The project will be considered successful if:
 
 4. Integrate predictive analytics for proactive decision-making
 
-# License
+## License
 
 This project is developed for academic purposes as part of On-the-Job Training (OJT).
 
