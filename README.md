@@ -29,9 +29,22 @@ The ultimate goal is to help retailers:
 
 4. Enhance operational efficiency
 
+## Table of Contents
+- Project Overview
+- Problem Statement
+- Tech Stack
+- Project Workflow
+- Core Features
+- Repository Structure
+- How to Run the Project
+- Expected Outputs
+- Future Improvements
+
 # Project Information
 
-Students: Vaishnavi, Md. Farhan Prawez
+Project Contributors
+• Vaishnavi  
+• Md. Farhan Prawez
 
 Roll Numbers: 25100010700039, 251810700049
 
@@ -82,28 +95,47 @@ By understanding return behavior, retailers can improve forecasting accuracy, re
 Primary Beneficiaries:
 Retail companies, operations teams, business analysts, and decision-makers.
 
-# Tech Stack
+## Dataset Information
 
-Python
+The dataset contains retail transaction records including:
 
-Jupyter Notebook
+- InvoiceNo – Unique transaction ID
+- StockCode – Product code
+- Description – Product description
+- Quantity – Number of items purchased
+- InvoiceDate – Transaction timestamp
+- UnitPrice – Price per product
+- CustomerID – Unique customer identifier
+- Country – Customer country
 
-Numpy
+## Sample Visualizations
 
-Pandas
+The project generates multiple analytical charts including:
 
-Matplotlib
+- Monthly sales trends
+- Top selling products
+- Product return distribution
+- Customer purchase behavior
 
-Seaborn
+(Screenshots will be added here)
 
-SciPy
+## Tech Stack
 
-Power BI
+Programming & Analysis
+- Python
+- Pandas
+- NumPy
+- SciPy
 
-Git
+Visualization
+- Matplotlib
+- Seaborn
+- Power BI
 
-GitHub
-
+Tools
+- Jupyter Notebook
+- Git
+- GitHub
 # Project Workflow
 
 Dataset Input  
@@ -184,7 +216,7 @@ To ensure correctness and reliability:
 
 5. Reproducible analysis workflow
 
-# Repository Structure
+## Repository Structure
 ```
 Retail-Return-Behavior-Study/
 │
@@ -196,24 +228,23 @@ Retail-Return-Behavior-Study/
 └── requirements.txt
 ```
 
-# How to Run the Project
-```
-Clone the repository:
+## How to Run the Project
 
-git clone <repository-link>
+1. Clone the repository
 
-Install required libraries:
+git clone https://github.com/Vaishnavi10706/Retail-Return-Behavior-Study
+
+2. Install required libraries
 
 pip install -r requirements.txt
 
-Open Jupyter Notebook:
+3. Launch Jupyter Notebook
 
 jupyter notebook
 
-Run the notebooks step-by-step.
+4. Run the notebooks step-by-step to reproduce the analysis.
 
-Open the Power BI dashboard file to explore interactive insights.
-```
+5. Open the Power BI dashboard to explore interactive insights.
 
 # Success Criteria
 
@@ -246,3 +277,9 @@ The project will be considered successful if:
 # License
 
 This project is developed for academic purposes as part of On-the-Job Training (OJT).
+
+## Author
+
+Vaishnavi  
+B.Tech Student – Data Analytics  
+GitHub: https://github.com/Vaishnavi10706
