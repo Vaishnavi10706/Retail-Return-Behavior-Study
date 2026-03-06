@@ -235,10 +235,10 @@ To ensure correctness and reliability:
 ```
 Retail-Return-Behavior-Study/
 │
-├── data/                # Raw and cleaned datasets
-├── notebooks/           # Jupyter notebooks for analysis
-├── dashboard/           # Power BI dashboard files
-├── images/              # Visualizations & dashboard screenshots
+├── clean_retail_dataset_zip_file.zip                # cleaned datasets
+├── notebooks/                                       # Jupyter notebooks for analysis
+├── dashboard/                                       # Power BI dashboard files
+├── images/                                          # Visualizations & dashboard screenshots
 ├── README.md
 └── requirements.txt
 ```
