@@ -1,12 +1,11 @@
 import json
 import os
 from flask import Flask, jsonify, request
-from flask_cors import CORS
+from flask_cors import CORS, cross_origin
 import pandas as pd
 
 app = Flask(__name__)
-# Allow all origins for now - can restrict later if needed
-CORS(app, resources={r"/*": {"origins": "*"}}, supports_credentials=False)
+CORS(app)
 
 BASE_DIR = os.path.dirname(__file__)
 
