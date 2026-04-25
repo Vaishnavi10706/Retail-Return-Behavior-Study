@@ -5,7 +5,7 @@ from flask_cors import CORS, cross_origin
 import pandas as pd
 
 app = Flask(__name__)
-CORS(app)
+CORS(app, resources={r"/*": {"origins": "https://retail-return-behavior-study.vercel.app"}})
 
 BASE_DIR = os.path.dirname(__file__)
 
@@ -19,7 +19,7 @@ print("Dataset loaded: {:,} rows".format(len(df_full)))
 
 @app.route("/")
 def home():
-    return "Backend is running 🚀"
+    return "Backend is running 🚀 v1.0"
 
 def apply_filters(df, country, year, months):
     filtered = df.copy()
