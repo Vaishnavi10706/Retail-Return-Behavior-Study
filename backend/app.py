@@ -9,7 +9,7 @@ CORS(app)
 
 BASE_DIR = os.path.dirname(__file__)
 
-DATA_PATH = os.path.join(BASE_DIR, "..", "data.json")
+DATA_PATH = os.path.join(BASE_DIR, "data.json")
 print("Loading dataset...")
 with open(DATA_PATH, "r", encoding="utf-8") as f:
     raw_data = json.load(f)
