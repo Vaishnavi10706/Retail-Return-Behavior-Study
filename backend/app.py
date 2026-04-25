@@ -5,12 +5,8 @@ from flask_cors import CORS
 import pandas as pd
 
 app = Flask(__name__)
-CORS(app, origins=[
-    "http://localhost:5173", 
-    "http://localhost:4173", 
-    "https://retail-return-behavior-study.vercel.app",
-    "https://*.vercel.app"
-], supports_credentials=True)
+# Allow all origins for now - can restrict later if needed
+CORS(app, resources={r"/*": {"origins": "*"}}, supports_credentials=False)
 
 BASE_DIR = os.path.dirname(__file__)
 
