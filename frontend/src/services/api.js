@@ -1,4 +1,4 @@
-const BASE_URL = "http://localhost:5000";
+const BASE_URL = "https://retail-return-behavior-study.onrender.com";
 export async function fetchMeta() {
   const res = await fetch(`${BASE_URL}/meta`);
   if (!res.ok) throw new Error("Failed to fetch filter options");
