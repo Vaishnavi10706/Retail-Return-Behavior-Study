@@ -34,6 +34,7 @@ def apply_filters(df, country, year, months):
 
 
 @app.route("/meta", methods=["GET"])
+@cross_origin()
 def get_meta():
     countries = sorted(df_full["Country"].unique().tolist())
     years     = sorted(df_full["Year"].unique().tolist())
@@ -46,6 +47,7 @@ def get_meta():
 
 
 @app.route("/dashboard-data", methods=["GET"])
+@cross_origin()
 def dashboard_data():
     country = request.args.get("country", "all")
     year    = request.args.get("year",    "all")
