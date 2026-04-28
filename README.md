@@ -1,5 +1,7 @@
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
 ![SciPy](https://img.shields.io/badge/SciPy-8CAAE6?style=for-the-badge&logo=scipy&logoColor=white)
@@ -13,7 +15,7 @@
 
 ## Data Analytics + Full-Stack Dashboard Project
 
-A full-stack data analytics dashboard that analyzes retail return behavior to uncover patterns, trends, and key insights. The project integrates a Flask backend, React frontend, and Power BI visualizations to deliver an interactive and user-friendly analytics experience.
+A full-stack retail analytics dashboard that identifies return patterns and helps businesses reduce revenue loss through data-driven insights and interactive visualizations. The project integrates a Flask backend, React frontend, and Power BI visualizations to deliver an interactive and user-friendly analytics experience.
 
 This project was developed as part of an On-the-Job Training (OJT) program to understand real-world data analysis, dashboard building, and full-stack integration.
 
@@ -84,11 +86,20 @@ Loading spinner for better UX
 
 Modular components (KPI cards, charts, modal)
 
+## Machine Learning Model
+
+- Algorithm Used: Random Forest 
+- Objective: Predict likelihood of product return
+- Features: Order value, category, country, etc.
+- Accuracy: 84%
+
 ## Screenshots
 
 Dashboard Overview
 
-(Add screenshot here)
+![Dashboard](frontend/src/assets/Dashboard1.png)
+![Dashboard](frontend/src/assets/Dashboard2.png)
+![Dashboard](frontend/src/assets/Dashboard3.png)
 
 Power BI Modal
 
@@ -96,7 +107,7 @@ Power BI Modal
 
 KPI Cards
 
-(Add screenshot here)
+![Dashboard](frontend/src/assets/Dashboard1.png)
 
 ## Project Structure
 
@@ -115,12 +126,12 @@ RETAIL-RETURN-BEHAVIOR-ANALYSIS/
 │   │   ├── components/
 │   │   │   └── KpiCards.jsx
 │   │   │   └── LoadingSpinner.jsx
-            └── PowerBIModal.css
+|   |   |   └── PowerBIModal.css
 │   │   │   └── PowerBIModal.jsx
 │   │   │
 │   │   ├── pages/
 │   │   │   └── Dashboard.jsx
-            └── Dashboard.css
+|   |   |   └── Dashboard.css
 │   │   ├── services/
 │   │   │   └── api.js
 │   │   ├── App.css
@@ -133,6 +144,10 @@ RETAIL-RETURN-BEHAVIOR-ANALYSIS/
 ├── README.md
 └── requirements.txt
 ```
+
+## System Architecture
+
+Dataset → Data Processing → Model → Flask API → React Dashboard → Power BI
 
 ## Tech Stack
 
@@ -224,6 +239,13 @@ This project helps in understanding:
 4. API integration between React & Flask
 5. Embedding Power BI in applications
 6. Data-driven decision making
+
+## Business Impact
+
+- Helps reduce product return losses
+- Identifies high-risk categories and regions
+- Supports better inventory and logistics decisions
+- Enables data-driven retail strategies
 
 ## Future Improvements
 
