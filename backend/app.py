@@ -15,6 +15,7 @@ with open(DATA_PATH, "r", encoding="utf-8") as f:
     raw_data = json.load(f)
 
 df_full = pd.DataFrame(raw_data)
+df_full = df_full.head(50000)
 print("Dataset loaded: {:,} rows".format(len(df_full)))
 
 @app.route("/")
