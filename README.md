@@ -17,7 +17,9 @@
 
 A full-stack retail analytics dashboard that identifies return patterns and helps businesses reduce revenue loss through data-driven insights and interactive visualizations. The project integrates a Flask backend, React frontend, and Power BI visualizations to deliver an interactive and user-friendly analytics experience.
 
-This project was developed as part of an On-the-Job Training (OJT) program to understand real-world data analysis, dashboard building, and full-stack integration.
+This project was developed as part of an On Job Training (OJT) program to understand real-world data analysis, dashboard building, and full-stack integration.
+
+---
 
 ## Features
 1. KPI Dashboard
@@ -86,12 +88,16 @@ Ensures smooth communication between frontend and dataset.
 
 - Modular components (KPI cards, charts, modal)
 
+---
+
 ## Machine Learning Model
 
 - Algorithm Used: Random Forest 
 - Objective: Predict likelihood of product return
 - Features: Order value, category, country, etc.
 - Accuracy: 84%
+
+---
 
 ## Screenshots
 
@@ -108,6 +114,8 @@ Power BI Modal
 KPI Cards
 
 ![Dashboard](frontend/src/assets/Dashboard1.png)
+
+---
 
 ## Project Structure
 
@@ -145,6 +153,8 @@ RETAIL-RETURN-BEHAVIOR-ANALYSIS/
 └── requirements.txt
 ```
 
+---
+
 ## System Architecture
 
 Dataset → Data Processing → Model → Flask API → React Dashboard → Power BI
@@ -169,6 +179,8 @@ CSS
 
 Power BI
 
+---
+
 ## How to Run the Project
 
 1. Clone the Repository
@@ -188,6 +200,9 @@ cd frontend
 npm install
 npm run dev
 ```
+
+---
+
 ## How to Use
 
 Step 1: Open Dashboard
@@ -219,15 +234,19 @@ View charts
 
 Open Power BI modal for deeper insights
 
+---
+
 ## Example Insights
 
-High return rate in specific categories
+- High return rate in specific categories
 
-Seasonal trends in returns
+- Seasonal trends in returns
 
-Country-wise return differences
+- Country-wise return differences
 
-Revenue loss due to returns
+- Revenue loss due to returns
+
+---
 
 ## Purpose of the Project
 
@@ -240,12 +259,16 @@ This project helps in understanding:
 5. Embedding Power BI in applications
 6. Data-driven decision making
 
+---
+
 ## Business Impact
 
 - Helps reduce product return losses
 - Identifies high-risk categories and regions
 - Supports better inventory and logistics decisions
 - Enables data-driven retail strategies
+
+---
 
 ## Future Improvements
 
@@ -255,9 +278,13 @@ This project helps in understanding:
 - Real-time data updates  
 - Machine learning for return prediction  
 
+---
+
 ## Support
 
 If you found this project useful, consider starring ⭐ the repository!
+
+---
 
 ## Author
 
